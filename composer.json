@@ -1,0 +1,25 @@
+{
+    "name": "khasinski/interactive-console",
+    "description": "Interactive console for Symfony2",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anton Pogonets",
+            "email": "zayass@gmail.com"
+        },
+        {
+            "name": "Krzysztof Hasiński",
+            "email": "krzysztof.hasinski@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/symfony": ">=2.4",
+        "d11wtq/boris": "*"
+    },
+    "autoload": {
+        "psr-0": { "Khasinski\\InteractiveConsoleBundle": "" }
+    },
+
+    "target-dir": "Khasinski/InteractiveConsoleBundle"
+}
